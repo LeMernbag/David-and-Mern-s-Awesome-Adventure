@@ -1,3 +1,29 @@
+# David and Mern's Awesome Adventure
+
+## Dependencies
+This app was created and optimized for:
+  - node v17.3.0
+  - npm 8.5.2
+
+## Getting Started
+clone the repo using the `git clone` cli command
+
+run `npm install` to install the required packages
+
+run `npm start` to run the app on localhost
+
+## Project Details
+
+### Routing
+Routing is managed by `react-router` and uses a `pages/[page_name]` directory system. Each module build should be contained within each `/[page_name]` directory.
+
+### Components
+This project utilizes the `@chakra-ui` modular component library and uses a `components/[Component_Name]` directory system. Try to reuse modules using the component library, expanding on them as needed by altering interfaces or using the spread operator.
+
+
+*****************
+# Default ReadMe
+
 This project was bootstrapped with
 [Create React App](https://github.com/facebook/create-react-app).
 

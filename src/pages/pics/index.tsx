@@ -1,7 +1,7 @@
 import { Box } from "@chakra-ui/react"
-import GradientHeader from './components/Gradient-Header'
+import GradientHeader from './../../components/Gradient-Header'
 
-const App = () => {
+const PicsPage = () => {
   return (
     <>
       <Box
@@ -12,14 +12,13 @@ const App = () => {
         alignItems="center"
       >
         <GradientHeader
-          content="Let's get this started."
+          content="Let's edit some images."
           textAlign="center"
           width="100%"
-          alignItems="center"
         />
       </Box>
     </>
   )
 }
 
-export default App
+export default PicsPage
